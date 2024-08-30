@@ -1,7 +1,7 @@
 // import {Versions} from './components/versions'
 
-import { RouterProvider } from 'react-router-dom'
-import { router } from './router'
+import { RouterProvider } from "react-router-dom";
+import { router } from "./router";
 
 export function App(): JSX.Element {
   return (
@@ -9,5 +9,5 @@ export function App(): JSX.Element {
       <RouterProvider router={router} />
       {/* <Versions/> */}
     </>
-  )
+  );
 }
